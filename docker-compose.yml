@@ -1,0 +1,10 @@
+services:
+  backend:
+    image: "dto80/234-lab11:latest"
+    ports:
+      - "8084:8080"
+  frontend:
+    image: "coca1719/se234-lab11-client:latest"
+    ports:
+      - "8083:80"
+version: "3.3"
